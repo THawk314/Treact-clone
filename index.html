@@ -348,7 +348,7 @@
                 <div class="valuesfeatures__container">
                   <div class="valuesicon__container--wrapper">
                     <div class="valuesicon__container--suitcase">
-                      <i class="fa-regular fa-suitcase"></i>
+                      <i class="fa-solid fa-briefcase"></i>
                     </div>
                     <div class="valuesfeatures__heading">Professionalism</div>
                   </div>
@@ -470,12 +470,13 @@
     <section id="testimonials">
       <div class="testimonials__container--wrapper">
         <div class="testimonials__container">
-          <div class="testimonials__img">
-            <img
+          <div class="testimonials__img--wrapper">
+            <img class="testimonials__img"
               src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
               alt=""
             />
           </div>
+          <div class="testimonials__header--container">
           <div class="testimonials__header">
             <h5 class="testimonials__subheading">
               <span class="purple">Testimonials</span>
@@ -488,17 +489,22 @@
               labore facilis doloremque quasi iusto dolorem ipsam reprehenderit
               sapiente, expedita ad, assumenda, ratione facere.
             </p>
-            .testimonials
-            <div class="testimonials__rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
+            <div class="testimonials__customerrating--container">
+             <div class="testimonials__rating">
+              <figure class="testimonialsrating__container">
+              <i class="fas fa-star"></i></figure>
+              <figure class="testimonialsrating__container">
+              <i class="fas fa-star"></i></figure>
+              <figure class="testimonialsrating__container">
+              <i class="fas fa-star"></i></figure>
+              <figure class="testimonialsrating__container">
+              <i class="fas fa-star"></i></figure>
+              <figure class="testimonialsrating__container">
+              <i class="fas fa-star"></i></figure>
+             </div>
             <div class="testimonials__ratingheading--wrapper">
-              <h5 class="testimonials__ratingheading"></h5>
-              <p class="testimonials__description">
+              <h5 class="testimonials__ratingheading">Amazing User Experience</h5>
+              <p class="testimonialscustomer__description">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
                 voluptatibus vel alias commodi, cumque provident minus totam
                 doloremque animi maiores laborum vitae minima dolor deleniti
@@ -509,28 +515,36 @@
                 explicabo aliquam id.
               </p>
               <div class="testimonials__customerimage--wrapper">
-                <div class="testimonials__customerinfo">
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
-                    alt=""
-                  />
-                  <div class="testimonials__customertextinfo">
-                    <h5 class="customername">Charlotte Hale</h5>
-                    <p class="testimonials__customertitle">
+                <div class="testimonials__customerinfo--wrapper">
+                  <div class="testimonials__customerinfo--container">
+                   <figure class="testimonialscustomer--img">
+                     <img class="testimonialcustomer--image"
+                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                     alt=""
+                     />
+                   </figure>
+                   <div class="testimonials__customertextinfo">
+                     <h5 class="testimonials__customername">Charlotte Hale</h5>
+                     <p class="testimonials__customertitle">
                       Director, Delos Inc.
-                    </p>
+                     </p>
+                   </div>
                   </div>
                   <div class="testimonials__ratings--controls">
                     <button class="testimonials__ratings--buttoncontrol">
-                      <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                      <i class="fa-solid fa-arrow-left"></i>
                     </button>
+                    <div class="button--divider"></div>
                     <button class="testimonials__ratings--buttoncontrol">
-                      <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                      <i class="fa-solid fa-arrow-right"></i>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
+            </div>
+
+          </div>
           </div>
         </div>
       </div>
@@ -544,67 +558,44 @@
           <div class="faqs__header">
             <h5 class="faqs__subtitle"><span class="purple">FAQS</span></h5>
             <h2 class="faqs__title">
-              You have <span class="purple">Question?</span>
+              You have <span class="purple">Questions?</span>
             </h2>
             <p class="faqs__description">
               And we have got answers to all of them. Lorem ipsum dolor sit
               amet, consectetur adipiscing elit.
             </p>
           </div>
-          <div class="faq__commonquestions--wrapper">
+          <div class="faqs__commonquestions--wrapper">
             <div class="faqs__commonquestions--cardcontainer">
+
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  Are all the templates easily customizable ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>Are all the templates easily customizable ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
 
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  How long do you usually support a standalone template for ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>How long do you usually support a standalone template for ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
 
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  What kind of payment methods do you accept ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>What kind of payment methods do you accept ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
 
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  Is there a subscription service to get the latest templates ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>Is there a subscription service to get the latest templates ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
 
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  Are the templates compaitble with the React ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>Are the templates compaitble with the React ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
 
               <div class="faqs__commonquestions--card">
-                <div class="faqs__cardquestion">
-                  Do you really support Internet Explorer 11 ?
-                </div>
-                <div class="faqs__cardquestionicon">
-                  <i class="fa-regular fa-angle-down"></i>
-                </div>
+                <p>Do you really support Internet Explorer 11 ?</p>
+                  <figure><i class="fa-solid fa-chevron-down no-cursor"></i></figure>
               </div>
             </div>
           </div>
@@ -619,13 +610,16 @@
         <div class="getstarted__container">
           <div class="getstarted__textcontainer">
             <div class="getstarted__text--wrapper">
+              
               <h5 class="getstarted__text">
                 Developers all over the world are happily using Treact.
               </h5>
-            </div>
-            <div class="getstarted__linkscontainer">
-              <a class="getstarted__link--primary no-cursor">Get Started</a>
-              <a class="getstarted__link--secondary no-cursor">Contact Us</a>
+
+              <div class="getstarted__linkscontainer">
+                <a class="getstarted__link--primary no-cursor">Get Started</a>
+                <a class="getstarted__link--secondary no-cursor">Contact Us</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -696,8 +690,6 @@
               </li>
             </ul>
           </div>
-
-          <div class="footer__divider"></div>
 
           <div class="footerlogo__copywright--container">
             <div class="footer__logoheader">
